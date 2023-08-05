@@ -1,0 +1,169 @@
+:root {
+    --main: #FF5151;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-brand img {
+    height: 28px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 1rem !important;
+    font-weight: 600;
+}
+
+nav li.active a {
+    font-weight: 600;
+    color: var(--main) !important;
+}
+
+nav li a:hover {
+    color: var(--main) !important;
+}
+
+nav button:not(.navbar-toggler) {
+    transition: 0.3s;
+}
+
+nav button:not(.navbar-toggler):hover {
+    opacity: 0.6;
+}
+
+.has-message {
+    position: relative;
+}
+
+.has-message::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background-color: var(--main);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+
+
+/* Buttons */
+.btn-p {
+    border-radius: 0;
+    color: #fff;
+    font-size: 0.8rem;
+    border: 0;
+    width: max-content;
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.5) 0%, #FF5E3A 100%);
+    box-shadow: 0 0 6px 2px rgba(255, 81, 81, 0.5);
+}
+
+/* Hero Section */
+.hero .container-xxl {
+    background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+    border-radius: 10px;
+    padding: 30px 0;
+}
+
+.f-p {
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+}
+
+.lead {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hero h1 + img {
+    height: 70px;
+    margin: 12px 0;
+    max-width: 400px;
+}
+
+.hero button {
+    margin-top:30px;
+    border-radius: 5px;
+    padding: 0.8rem 1.8rem;
+}
+
+.hero .right img {
+    max-height: 300px;
+}
+
+/* footer */
+footer {
+    background: #FCCB9026;
+}
+
+footer h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.contact i {
+    background-color: var(--main);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.6rem;
+    padding: 6px;
+    margin-right: 12px;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.contact span {
+    font-size: 0.9rem;
+}
+
+footer img {
+    margin-bottom: 16px;
+}
+
+.main-info p {
+    font-size: 0.9rem;
+}
+
+.main-info button {
+    background: var(--main);
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+
+.main-info .copright,
+.main-info a {
+    font-size: 0.9rem;
+    color: var(--main);
+    margin-top: 18px;
+    margin-bottom: 0px;
+} 
+
+footer .col-lg-2 a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: black;
+}
+
+footer .col-lg-2 li {
+    margin-bottom: 12px;
+}
+
+footer .col-lg-2 li:hover {
+    opacity: 0.6;
+}

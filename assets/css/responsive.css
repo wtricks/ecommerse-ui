@@ -1,0 +1,41 @@
+
+@media screen and (min-width: 992px) {
+    nav {
+        height: 70px;
+    }
+    
+    nav ul {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    nav li {
+        width: 80px;
+        min-width: max-content;
+    }
+
+    .hero {
+        padding: 0 20px;
+    }
+
+    .hero > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .hero > div,
+    .hero .row > * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero .right {
+        margin-top: 20px;
+    }
+}
