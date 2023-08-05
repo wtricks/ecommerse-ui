@@ -24,6 +24,9 @@
         align-items: center;
     }
     
+    .arrival .v-image {
+        margin-right: 12px;
+    }
 }
 
 @media screen and (max-width: 992px) {
